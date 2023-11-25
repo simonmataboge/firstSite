@@ -220,18 +220,22 @@
 #about-us, #about-us-process, #about-us-services, #about-us-register
 {
 	margin-top:100px;
-	
    background: linear-gradient(to top right,cornflowerblue,black);
     height: 400px;
 	
 }
-@media screen and (max-width:400px ){
-	#about-us{
-         width: 740px;
+@media screen and (max-width:1000px ){
+	#about-us, #about-us-process, #about-us-services, #about-us-register{
+         width: 440px;
         padding: 10px;
 	}
 }
-.box
+@media screen and (max-width:400px ){
+	#about-us, #about-us-process, #about-us-services, #about-us-register{
+         width: 540px;
+        padding: 10px;
+	}
+}box
 {
     margin-left: 100px;
     padding-top: 100px;
