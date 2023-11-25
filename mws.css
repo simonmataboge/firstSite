@@ -32,27 +32,27 @@
 
 .header
 {
-	margin-top:0px;
+	margin-top:-80px;
     padding-top: 5px;
 	height:70px;
 	position: ;
 }
 .header img
 {
-	width:170px;
-	height:50px;
-	margin-top:-15px;
+	width:100px;
+	height:100px;
+	margin-top:-5px;
 	margin-left:5px;
 }
 .menu a
 {
 	margin:px;
 	margin-top:0px;
-	font-size:18px;
-	color:white;
+	font-size:20px;
+	color:black;
 	padding:8px;
 	border-radius:3px;
-	margin-left: -30px;
+	margin-left: 0px;
 }
 
 .menu a:hover
@@ -62,18 +62,18 @@
     color: white;
 	border-radius:3px;
 }
-.header h2 
+.header h3
 {
 	margin-left:0px;
-	margin-top:10px;
-    color: white;
+	margin-top:-30px;
+    color: black;
     font-family: serif;
     font-weight: bolder;
 }
 .menu
 {
-	margin-left:280px;
-	margin-top:-175px;
+	margin-left:300px;
+	margin-top:-200px;
 	position: sticky;
     font-family:"Courier ";
 }
@@ -152,11 +152,11 @@
 	bottom:0;
 	color:#f1f1f1;
 	padding:20px;
-	margin-top:0px;
+	margin-top:80px;
 	font-family:"Courier ";
 	font-size: 140px;
     height: 500px;
-    background-image: url(17.jpg);
+    background-image: url(marvin-meyer-SYTO3xs06fU-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: full image;
@@ -191,10 +191,27 @@
     font-family:Embassy BT; 
     font-weight:bolder; 
     color:black; font-size:70px; 
-    margin-top:30px;
+    margin-top:60px;
     
 }
-
+#services
+{
+    margin-top: 150px;
+    text-align: center;
+    
+}
+#services h3
+{
+    font-family:Embassy BT;
+    color: white;
+    font-size: 60px;
+}
+#services p
+{
+    font-family:Embassy BT;
+    color: white;
+    font-size: 16px;
+}
 
 
 
@@ -291,8 +308,8 @@
     margin-left:-20px;
     font-size:16px;
     width: 400px;
-    background: linear-gradient(to top right,cornflowerblue,black);
-    padding: 10px;
+    background: linear-gradient(to top right,black,goldenrod,black);
+    padding: 20px;
     border-radius: 5px;
     display: inline-block;
     color: white;
@@ -326,7 +343,7 @@
     width: 300px;
     margin-left:10px;
     font-size:16px;
-    margin-top: 10px;
+    margin-top: 80px;
     background: linear-gradient(to top right,cornflowerblue,black);
     padding: 20px;
     color: white;
@@ -392,7 +409,7 @@ h1
 .buy-btn
 {
 	
-	background: linear-gradient(to top right,cornflowerblue,black);
+	background-image: url(image22.png);
 	color:white;
     padding:10px 20px;
 }
@@ -596,7 +613,7 @@ input
     font-size:16px;
     width: 440px;
     margin-top: 10px;
-    background: linear-gradient(to top right,cornflowerblue,black);
+    background-image: url(image22.png);
     padding: 10px;
     border-radius: 5px;
     display: inline-block;color: white;
@@ -617,7 +634,7 @@ input
 .load
 {
     margin-left: 40px;
-    background: linear-gradient(to top right,cornflowerblue,black);
+   background-image: url(image22.png);
 }
 .login 
 {
@@ -668,7 +685,7 @@ input
 
 .about-us b 
 {
-   	background: linear-gradient(to top right,cornflowerblue,black);
+   	background-image: url(image22.png);
 	color:white; 
     padding: 5px 10px;
     margin-top: 5px;
@@ -698,11 +715,7 @@ ul
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-.fa
-{
-    color: white;
-    
-}
+
 /*----Footer----*/
 
 #footer
@@ -752,7 +765,7 @@ ul
 		margin-left:0px;
 	}
 }
-.footer h4
+.footer h6
 {
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
