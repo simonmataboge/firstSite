@@ -232,8 +232,7 @@
 }
 @media screen and (max-width:400px ){
 	#about-us, #about-us-process, #about-us-services, #about-us-register{
-         width: 540px;
-        padding: 10px;
+         width: 550px;
 	}
 }box
 {

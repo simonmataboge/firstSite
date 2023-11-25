@@ -214,7 +214,7 @@
 }
 
 /*-----about-------*/
-#about
+#about, #about-dev, #about-design, #about-tech, #about-host, #about-service
 {
 	margin-top:50px;
     font-family:"Courier ";
@@ -222,12 +222,12 @@
 	
 }
 @media screen and (max-width:1000px ){
-	#about{
+	#about, #about-dev, #about-design, #about-tech, #about-host, #about-service{
 		height: 600px;
 	}
 }
 @media screen and (max-width:400px ){
-	#about{
+	#about, #about-dev, #about-design, #about-tech, #about-host, #about-service{
 		width: 550px;height: 600px;
 	}
 }
