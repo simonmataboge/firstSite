@@ -220,6 +220,8 @@
 #about-us, #about-us-process, #about-us-services, #about-us-register
 {
 	margin-top:100px;
+	
+   background: linear-gradient(to top right,cornflowerblue,black);
     height: 400px;
 	
 }
