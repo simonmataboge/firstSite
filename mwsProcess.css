@@ -168,20 +168,8 @@
 	#home{
 		width:500px;
 	}
-
-	a. sidepanel:link,
-	a. sidepanel:visited,
-	a. sidepanel:hover,
-	a. sidepanel:active {
-		text-decoration:none;
-		color:#fff;
-}}
-@media screen and (max-width:400px ){
-	#home{
-         width: 500px;
-        padding: 10px;
-	}
 }
+
 @media screen and (max-width:400px ){
 	#home{
          width: 540px;
