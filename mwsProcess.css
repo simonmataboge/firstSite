@@ -381,6 +381,11 @@
         margin-top: 0px;       
 	}
 }
+@media screen and (max-width:400px ){
+	.user-info{
+        width:460px;       
+	}
+}
 .process-user  img
 {
     margin-top: 300px;
@@ -390,6 +395,11 @@
 	.process-user img{
         margin-top: 80px;
         margin-left: 100px;        
+	}
+}
+@media screen and (max-width:400px ){
+	.process-user img{
+        margin-top: 0px;      
 	}
 }
 hr
