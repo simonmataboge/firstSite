@@ -526,6 +526,13 @@ li
     margin-top: 1px;
 	text-align:center;
 }
+@media screen and (max-width:400px ){
+	.copyright {
+		width:540px;
+		margin-top:600px;
+		text-align:center;
+	}
+}
 .copyright p
 {
     text-align:center;padding:10px;
@@ -536,13 +543,7 @@ li
         text-align: left;
 	}
 }
-@media screen and (max-width:400px ){
-	.copyright {
-		width:540px;
-		margin-top:600px;
-		text-align:center;
-	}
-}
+
 .copyright .fa
 {
        color:white;
