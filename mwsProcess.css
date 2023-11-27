@@ -305,7 +305,7 @@
 @media screen and (max-width:400px ){
 	.process-icon img{
 		margin-left:-420px;
-        margin-top: 730px;
+        margin-top: 630px;
         width: 400px;
          
 	}
@@ -326,7 +326,7 @@
 }
 @media screen and (max-width:400px ){
 	.process-icon{
-        margin-top: -700px; 
+        margin-top: -800px; 
         margin-left: 500px;
         
          
