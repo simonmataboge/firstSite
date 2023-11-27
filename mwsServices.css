@@ -156,7 +156,7 @@
 	font-family:"Courier ";
 	font-size: 140px;
     height: 500px;
-    background-image: url(marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+    background-image: url(images/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: full image;
@@ -214,7 +214,7 @@
 }
 
 /*-----about-------*/
-#about, #about-dev, #about-design, #about-tech, #about-host, #about-service
+#service, #service-dev, #service-design, #service-tech, #service-host, #service-service
 {
 	margin-top:50px;
     font-family:"Courier ";
@@ -222,23 +222,23 @@
 	
 }
 @media screen and (max-width:1000px ){
-	#about, #about-dev, #about-design, #about-tech, #about-host, #about-service{
+	#service, #service-dev, #service-design, #service-tech, #service-host, #service-service{
 		height: 600px;
 	}
 }
 @media screen and (max-width:400px ){
-	#about, #about-dev, #about-design, #about-tech, #about-host, #about-service{
+	#service, #service-dev, #service-design, #service-tech, #service-host, #service-service{
 		width: 550px;height: 600px;
 	}
 }
-.about
+.service
 {
 	margin-left:50px;
     height: 400px;
    
 	
 }
-.about-content
+.service-content
 {
     margin-left: 10px;
     margin-top: 50px;
@@ -248,16 +248,16 @@
     padding: 10px;
 }
 @media screen and (max-width:1000px ){
-	.about-content{
+	.service-content{
 		width: 490px;margin-left: -50px;
 	}
 }
 @media screen and (max-width:400px ){
-	.about-content{
+	.service-content{
 		width: 550px;margin-left: -40px;
 	}
 }
-.about-icon
+.service-icon
 {
     margin-left: 10px;
     margin-top: -60px;
@@ -266,7 +266,7 @@
     background-color: ;
 }
 @media screen and (max-width:1000px ){
-	.about-icon{
+	.service-icon{
 		margin-top: -20px;
 	}
 }
@@ -274,24 +274,24 @@
 {
     
 }
-.about-icon .fa
+.service-icon .fa
 {
     font-size: 150px;
     border-radius: 100%;
     padding: 20px;
 }
-.about img
+.service img
 {
     width: 400px;
     height: 300px;
 }
 @media screen and (max-width:1000px ){
-	.about img{
+	.service img{
 		margin-left: 30px;
 	}
 }
 @media screen and (max-width:400px ){
-	.about img{
+	.service img{
 		margin-left: 50px;
 	}
 }
@@ -311,176 +311,6 @@ h6
     color: lime;
     
 }
-/*---templates----*/
-#templates
-{
-    height: 500px;
-    margin-top: 50px;
-}
-#templates{display: inline-block!important;}
-
-@media screen and (max-width:1000px ){
-	#templates{
-		height: 400px;
-	}
-}
-.templates
-{
-	margin-top:50px;
-	display:inline-block;
-	background-color:;
-	padding-bottom:10px;
-	margin-left:40px;
-	
-}
-.templates{display: inline-block!important;}
-
-@media screen and (max-width:1000px ){
-	.templates{
-		display: none;
-		margin-left:20px;
-        width:460px;
-	}
-}
-
-@media screen and (max-width:400px ){
-	.templates{
-		display: block;
-		float: left;
-		margin:2px;
-		font-size:2em;
-		transition:color linear 0,15s;
-	}
-	a. .templates:link,
-	a. .templates:visited,
-	a. .templates:hover,
-	a. .templates:active {
-		text-decoration:none;
-		color:#fff;
-    }
-}
-.templates img
-{
-	border:thin;
-	border-color:black;
-	border-style:solid;
-	height:300px;
-	width:210px;
-	margin-left:10px;
-
-}
-.templates img{display: inline-block!important;}
-
-@media screen and (max-width:1000px ){
-	.templates img{
-		display: none;
-		margin-left:0px;
-        width:110px;
-        height: 200px;
-	}
-}
-
-
-.templates h5
-{
-	color:white;
-	font-weight:bolder;
-    width: 300px;
-        border-bottom-right-radius: 40px;
-    border-top-left-radius: 40px;
-    background: linear-gradient(to top right,cornflowerblue,black);
-    margin-left: 10px;
-    padding: 5px;
-}
-
-.templates h5{display: inline-block!important;}
-
-@media screen and (max-width:1000px ){
-	.templates h5{
-		display: none;
-		margin-left:0px;
-	}
-}
-
-@media screen and (max-width:400px ){
-	.templates h5{
-		display: block;
-		float: left;
-		margin:2px;
-		font-size:2em;
-		transition:color linear 0,15s;
-	}
-	a. .templates h5:link,
-	a. .templates h5:visited,
-	a. .templates h5:hover,
-	a. .templates h5:active {
-		text-decoration:none;
-		color:#fff;
-		}
-	}
-
-
-
-
-
-
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: 40px;
-  padding: 16px;
-  margin-top: -42px;
-  color: white;
-  font-weight: bold;
-  font-size: 35px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.prev {
-  left: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-.prev:hover, .next:hover {
-  background: linear-gradient(to top right,cornflowerblue,black);
-}
-
-
-
-
-.fade {
-  -webkit-animation-name: none;
-  -webkit-animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-    {
-        width: 400px;
-    }
-}
-
 
 /*----Footer----*/
 

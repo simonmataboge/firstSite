@@ -156,7 +156,7 @@
 	font-family:"Courier ";
 	font-size: 140px;
     height: 500px;
-    background-image: url(marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+    background-image: url(images/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: full image;
@@ -217,7 +217,7 @@
 
 
 /*-----about-------*/
-#about-us, #about-us-process, #about-us-services, #about-us-register
+#about-us, #about-us-process, #about-us-testimonials, #about-us-register
 {
 	margin-top:100px;
    background: linear-gradient(to top right,cornflowerblue,black);
@@ -226,7 +226,7 @@
 }
 @media screen and (max-width:1000px ){
 	#about-us, #about-us-process, #about-us-services, #about-us-register{
-         width: 440px;
+         width: 480px;
         padding: 10px;
 	}
 }
@@ -234,11 +234,12 @@
 	#about-us, #about-us-process, #about-us-services, #about-us-register{
          width: 550px;
 	}
-}box
+}
+.box
 {
     margin-left: 100px;
     padding-top: 100px;
-    font-family:"Courier ";
+    font-family:"Courier";
 	color:black;
 	
 }
@@ -321,7 +322,7 @@
 
 @media screen and (max-width:1000px ){
 	.about-us-box{
-		margin-left:-10px;width: 450px;margin-top: 30px;
+		margin-left:-25px;width: 450px;margin-top: 30px;
          
 	}
 }
@@ -413,7 +414,7 @@ h1
 .buy-btn
 {
 	
-	background-image: url(image22.png);
+	background-image: url(images/image22.png);
 	color:white;
     padding:10px 20px;
 }
@@ -452,260 +453,6 @@ img
 
 
 
-
-
-
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: 40px;
-  padding: 16px;
-  margin-top: -42px;
-  color: white;
-  font-weight: bold;
-  font-size: 35px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.prev {
-  left: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-.prev:hover, .next:hover {
-  background: linear-gradient(to top right,cornflowerblue,black);
-}
-
-
-
-
-.fade {
-  -webkit-animation-name: none;
-  -webkit-animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-    {
-        width: 400px;
-    }
-}
-
-/*----contacts------*/
-
-
-.form
-{
-
-    padding:10px;
-    text-align:center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: full image;
-    margin-top:-340px;
-    height:600px;
-    margin-left: 0px;
- 
-}
-@media screen and (max-width:400px ){
-	.form{
-	width: 420px;	
-	height:760px;
-	}
-}
-
-input
-{
-  	margin-left:0px;
-   height: 45px;
-   width: 420px;
-   border-radius:5px;
-
-}
-@media screen and (max-width:1000px ){
-	input{
-	width: 370px;	
-	}
-}
-@media screen and (max-width:1000px ){
-	input{
-	width: 420px;	
-	}
-}
-.about-us-contacts input
-{
-  	margin-left:0px;
-   height: 45px;
-   width: 370px;
-   border-radius:5px;
-
-}
-@media screen and (max-width:1000px ){
-	.about-us-contacts input{
-	width: 370px;	
-	}
-}
-.col-75
-{
-  float: left;
-  width: 85%;
-  margin-top: 6px;
-}
-#message
-{
-    width: 370px;
-    height: 80px;
-    border-radius: 5px;
-}
-.form-group button
-{
-
-    margin-top: 10px;
-    height: 50px;
-    width: 227px;
-    font-size: 16px;
-    background: linear-gradient(to top right,cornflowerblue,black);
-    padding:10px;
-    border-radius:5px;
-    color: white;
-    margin-left: 0px;
-   
-    
-
-}
-@media screen and (max-width:1000px ){
-	.form-group button{
-		width: 116px;font-size:12px;margin-left: 0px;
-	}
-}
-@media screen and (max-width:400px ){
-	.form-group button{
-		width: 130px;font-size:12px;margin-left: 0px;
-	}
-}
-@media screen and (max-width:400px ){
-	#service-home{
-		width:400px;
-		margin-left:10px;
-	}
-}
-/*----register--------*/
-.about-us-register, .about-us-contacts
-{
-    margin-left:40px;
-    font-size:16px;
-    width: 440px;
-    margin-top: 10px;
-    background-image: url(image22.png);
-    padding: 10px;
-    border-radius: 5px;
-    display: inline-block;color: white;
-    
-}
-@media screen and (max-width:1000px ){
-	.about-us-register, .about-us-contacts{
-		margin-left:20px;
-         
-	}
-}
-@media screen and (max-width:400px ){
-	.about-us-register, .about-us-contacts{
-		margin-left:50px;
-         
-	}
-}
-.load
-{
-    margin-left: 40px;
-   background-image: url(image22.png);
-}
-.login 
-{
-   margin-left: 20px; 
-}
-@media screen and (max-width:1000px ){
-	.login{
-		
-        margin-top: -40px;float: right;
-	}
-}
-@media screen and (max-width:400px ){
-	.login{
-		
-        margin-top: -40px;float: right;
-	}
-}
-.login a
-{
-    padding-left: 40px;
-    color: black;
-}
-.login a:hover
-{
-    color: lime;
-}
-#register
-{
-    margin-left: 40px;
-}
-@media screen and (max-width:1000px ){
-	#register{
-		margin-left:3px;width: 480px;
-	}
-}
-@media screen and (max-width:400px ){
-	#register{
-		margin-left:3px;width: 540px;
-	}
-}
-.register
-{
-    display: inline-block;
-   
-    background-color: ;
-    margin-left: 0px;
-}
-
-.about-us b 
-{
-   	background-image: url(image22.png);
-	color:white; 
-    padding: 5px 10px;
-    margin-top: 5px;
-}
-.col-lg-8
-{
-	margin-left:0px;
-	margin-top:350px;
-    
-}
-@media screen and (max-width:1000px ){
-	.col-lg-8{
-		margin-left: 0px;
-        margin-top: 340px;
-	}
-}
 ul
 {
     font-weight: lighter;
@@ -713,7 +460,7 @@ ul
 }
 .box .fa
 {
-        color:white;
+    color:white;
     background: linear-gradient(to top right,cornflowerblue,black);
     padding: 10px;
     border-bottom-right-radius: 10px;
