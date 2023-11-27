@@ -172,7 +172,7 @@
 
 @media screen and (max-width:400px ){
 	#home{
-         width: 640px;
+         width: 540px;
         padding: 10px;
 	}
 }
@@ -254,7 +254,7 @@
 }
 @media screen and (max-width:400px ){
 	.process-content-box{
-        width: 550px;
+        width: 450px;
         margin-left: 10px;
         height: 430px;
          
