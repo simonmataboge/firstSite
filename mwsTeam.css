@@ -300,6 +300,7 @@ padding-bottom:20px;
 @media screen and (max-width:400px ){
 	#teams .box{
 		width:400px;
+		margin-left: 40px;
 	}
 }
 .teams-box
