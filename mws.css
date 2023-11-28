@@ -232,7 +232,7 @@
 }
 @media screen and (max-width:400px ){
 	#about-us, #about-us-process, #about-us-services, #about-us-register, #about-us-testimonials{
-         width: 600px;
+         width: 540px;
 	}
 }
 .box
