@@ -63,6 +63,7 @@
 	padding:8px;
     color: white;
 	border-radius:3px;
+	text-decoration: none;
 }
 .header h3
 {
@@ -95,7 +96,7 @@
   width:0px;
   position:fixed;
   z-index: 1;
-  height: 310px;
+  height: 370px;
   top: 90px;
   left: 20px;
   background: linear-gradient(to top right,cornflowerblue,black);
@@ -106,13 +107,14 @@
 }
 
 .sidepanel a {
-  padding: 8px 8px 18px 20px;
+  padding: 8px 8px 18px 26px;
   text-decoration: none;
   font-size: 16px;
   color: white;
+  list-style: none;
   display: block;
-  transition: 0.3s;
-    margin-top: -20px;
+  opacity: 1;
+  box-sizing: border-box;
 }
 
 .sidepanel a:hover {
@@ -238,7 +240,7 @@
 @media screen and (max-width:400px ){
 	#testimonials {
 		width: 480px;
-        	height: 2200px;
+        	height: 1900px;
 		
 	}
 }
@@ -259,7 +261,7 @@
 }
 @media screen and (max-width:400px ){
 	.testimonials img{
-		margin-left: 80px;
+		margin-left: 130px;
 		 width: 300px;
 		height: 300px;
 padding-bottom:20px;
@@ -300,7 +302,6 @@ padding-bottom:20px;
 @media screen and (max-width:400px ){
 	#testimonials .box{
 		width:400px;
-		margin-left: 100px;
 	}
 }
 .testimonials-box
