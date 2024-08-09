@@ -337,9 +337,9 @@ padding-bottom:20px;
 	
 }
 @media screen and (max-width:400px ){
-	#teams-box{
+	.teams-box{
 		
-		margin-left:50px;
+		margin-left:100px;
 	}
 }
 .box .fa
