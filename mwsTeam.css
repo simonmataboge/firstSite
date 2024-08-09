@@ -225,14 +225,14 @@
 }
 #teams
 {
-    margin-left: 80px;
+    margin-left: 50px;
     margin-top: 50px;
 }
 @media screen and (max-width:1000px ){
 	#teams {
 		width: 480px;
-        margin-left: 0px;
-        margin-top: 0px;
+        margin-left: 20px;
+        margin-top: 40px;
 		
 	}
 }
@@ -246,13 +246,22 @@
 }
 .teams img
 {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 25px;
+	border: .2rem solid white;
+	border-radius: 200px;
+	border-left-color: dodgerblue;
+	border-left-style: solid;
+	border-left-width: .5rem;
+		border-right-color: dodgerblue;
+	border-right-style: solid;
+	border-right-width: .5rem;
+	
 }
 @media screen and (max-width:1000px ){
-	.teams img{
+	teams img{
 		margin-top: 80px;
         width: 300px;
         margin-left: 80px;
@@ -277,28 +286,31 @@ padding-bottom:20px;
 #teams h3
 {
     font-family:Embassy BT;
-    color: black;
-    font-size: 30px;
+    color:white;
+    font-size: 20px;
+	text-align: center;
+	padding-top: 20px;
 
 }
 #teams p
 {
     font-family:Embassy BT;
-    color: black;
-    font-size: 16px;
+    color: white;
+    font-size: 14px;
+	padding: 0 10px;
 }
 #teams .box
 {
     margin-left: 10px;
     margin-top: 0px;
     width: 200px;
+
    
 }
 @media screen and (max-width:1000px ){
 	#teams .box{
-		margin-left: 40px;
         margin-top: 20px;
-        width: 400px;
+    
 	}
 }
 @media screen and (max-width:400px ){
@@ -310,11 +322,30 @@ padding-bottom:20px;
 .teams-box
 {
     display: inline-block;
+	background: linear-gradient(to top right,cornflowerblue,black);
+	border-top-right-radius: 200px;
+	border-top-left-radius: 200px;
+	border-top-color: dodgerblue;
+	border-top-style: solid;
+	border-top-width: .8rem;
+	border-bottom-color: dodgerblue;
+	border-bottom-style: solid;
+	border-bottom-width: .4rem;
+	box-shadow: 0 0 1rem dodgerblue;
+	margin-top: 20px;
+	margin-left: 10px;
+	
 }
 .box .fa
 {
-    color: black;
-    font-size: 20px;
+        color:white;
+    padding: 10px;
+	margin-left: 5px;
+	margin-top: -10px;
+}
+.box .fa:hover
+{
+    color: aqua;
 }
 h1
 {
@@ -329,7 +360,7 @@ h1
 }
 h6
 {
-    color: black;
+    color: white;
 }
 /*----Footer----*/
 

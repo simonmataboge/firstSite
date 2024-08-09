@@ -38,6 +38,7 @@
     padding-top: 5px;
 	height:70px;
 	position: ;
+	
 }
 .header img
 {
@@ -194,7 +195,8 @@
 {
     font-family:Embassy BT; 
     font-weight:bolder; 
-    color:black; font-size:70px; 
+    color:black; 
+    font-size:70px; 
     margin-top:60px;
     
 }
@@ -227,13 +229,14 @@
     margin-left: 80px;
     margin-top: 100px;
     height: 300px;
+
 }
 @media screen and (max-width:1000px ){
 	#testimonials {
 		width: 480px;
-        margin-left: 0px;
-        height: 1100px;
-        margin-top: 10px;
+        margin-left: 30px;
+        height: 400px;
+        margin-top: 50px;
 		
 	}
 }
@@ -246,16 +249,19 @@
 }
 .testimonials img
 {
-    width: 140px;
-    height: 140px;
-    margin-top: 10px;
-    margin-left: 30px;
+    width: 70px;
+    height: 70px;
+    margin-top: -20px;
+    margin-left: -30px;
     border-radius: 200px;
+	border-color: white;
+	border-width: thick;
+	border-style: solid;
 }
 @media screen and (max-width:1000px ){
 	.testimonials img{
-		margin-top: 0px;
-        margin-left: 150px;
+		margin-top: -50px;
+        margin-left: -30px;
 		
 	}
 }
@@ -277,13 +283,21 @@ padding-bottom:20px;
 {
     font-family:Embassy BT;
     color: lime;
+	padding-top: 20px;
 
+}
+@media screen and (max-width:1000px ){
+	.testimonials {
+		padding-top: 10px;
+		
+	}
 }
 #testimonials p
 {
     font-family:Embassy BT;
-    color: black;
+    color: white;
     font-size: 16px;
+	width: 170px;
 }
 #testimonials .box
 {
@@ -294,9 +308,9 @@ padding-bottom:20px;
 }
 @media screen and (max-width:1000px ){
 	#testimonials .box{
-		margin-left: 50px;
-        margin-top: 80px;
-        width: 380px;
+		margin-left: 10px;
+        margin-top: 30px;
+        width: 160px;
 	}
 }
 @media screen and (max-width:400px ){
@@ -307,6 +321,17 @@ padding-bottom:20px;
 .testimonials-box
 {
     display: inline-block;
+	background: linear-gradient(to top right,cornflowerblue,black);
+	width: 180px;
+	margin-left: 20px;
+	border-radius: 10px;
+	padding-bottom: 40px;
+}
+@media screen and (max-width:1000px ){
+	.testimonials-box{
+        margin-top: 30px;
+     
+	}
 }
 .box .fa
 {
@@ -450,4 +475,12 @@ h6
 {
     color: lime;
 }
+
+
+
+
+
+
+
+
 
