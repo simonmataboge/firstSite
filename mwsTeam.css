@@ -336,6 +336,12 @@ padding-bottom:20px;
 	margin-left: 10px;
 	
 }
+@media screen and (max-width:400px ){
+	#teams-box{
+		
+		margin-left:520px;
+	}
+}
 .box .fa
 {
         color:white;
