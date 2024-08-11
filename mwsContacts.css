@@ -63,6 +63,7 @@
 	padding:8px;
     color: white;
 	border-radius:3px;
+	text-decoration:none;
 }
 .header h3
 {
@@ -223,68 +224,164 @@
     color: white;
     font-size: 16px;
 }
-#contacts
+#testimonials
 {
-    margin-left: 80px;
-    margin-top: 80px;
-    height: 240px;
+    margin-left: 40px;
+    margin-top: 100px;
+    height: 300px;
+
 }
 @media screen and (max-width:1000px ){
-	#contacts {
+	#testimonials {
 		width: 480px;
-        margin-left: 0px;
-        height: 700px;
+        margin-left: 30px;
+        height: 800px;
         margin-top: 50px;
 		
 	}
 }
-
 @media screen and (max-width:400px ){
-	.contacts {
-		width: 470px;
+	#testimonials {
+		width: 480px;
+        	height: 1200px;
+		
 		
 	}
 }
-#contacts h3
+.testimonials .fa
 {
-    font-family:Embassy BT;
-    color: black;
-    font-size: 30px;
-
-}
-#contacts p
-{
-    font-family:Embassy BT;
-    color: black;
-    font-size: 16px;
-}
-#contacts .box
-{
-    margin-left: 10px;
-    margin-top: 0px;
-    width: 250px;
-   
+    width: 70px;
+    height: 70px;
+    margin-top: -20px;
+    margin-left: -30px;
+    border-radius: 200px;
+	border-color:white;
+	border-width: thick;
+	border-style: solid;
+	text-align: center;
+	box-shadow: 0 0 2rem white;
 }
 @media screen and (max-width:1000px ){
-	#contacts .box{
-		margin-left: 50px;
-        margin-top: 20px;width: 400px;
+	.testimonials .fa{
+		margin-top: -50px;
+        margin-left: -30px;
+		
 	}
 }
 @media screen and (max-width:400px ){
-	#contacts .box{
+	.testimonials .fa{
+		margin-left: -50px;
+		 width: 160px;
+		height: 160px;
+
+	}
+}
+@media screen and (max-width:400px ){
+	.testimonials {
+		width: 470px;
+		
+		
+	}
+}
+#testimonials h6
+{
+    font-family:Embassy BT;
+    color: lime;
+	padding-top: 20px;
+
+}
+@media screen and (max-width:1000px ){
+	.testimonials {
+		padding-top: 10px;
+		
+	}
+}
+#testimonials p
+{
+    font-family:Embassy BT;
+    color: white;
+    font-size: 16px;
+	width: 270px;
+}
+@media screen and (max-width:400px ){
+	#testimonials p{
+        width: 390px;
+     
+	}
+}
+#testimonials .box
+{
+    margin-left: 10px;
+    margin-top: 0px;
+    width: 270px;
+	
+   
+}
+@media screen and (max-width:1000px ){
+	#testimonials .box{
+		margin-left: 10px;
+        margin-top: 30px;
+        width: 160px;
+	}
+}
+@media screen and (max-width:400px ){
+	#testimonials .box{
 		width:400px;
 	}
 }
-.contacts-box
+.testimonials-box
 {
     display: inline-block;
+	background: linear-gradient(to top right,cornflowerblue,black);
+	width: 280px;
+	margin-left: 20px;
+	border-radius: 10px;
+	padding-bottom: 40px;
+	box-shadow: 0 0 1rem goldenrod;
 }
-.box .fa
+@media screen and (max-width:1000px ){
+	.testimonials-box{
+        margin-top: 30px;
+		width: 400px;
+     
+	}
+}
+@media screen and (max-width:400px ){
+	.testimonials-box{
+        margin-top: 30px;
+		margin-left: 40px;
+		width: 400px;
+		padding-bottom: 60px;
+     
+	}
+}
+.testimonials .fa
+{
+    color: goldenrod;
+    font-size: 30px;
+    padding: 10px;
+    background: linear-gradient(to top right,cornflowerblue,black);
+}
+h1
+{
+	color:black;
+	text-align:;
+    width: 200px;
+	font-family:Embassy BT;
+    border-right-color: black;
+    border-right-style: solid;
+    background-color: white;
+
+}
+h6
 {
     color: black;
-    font-size: 20px;
 }
+
+
+
+
+
 /*----Footer----*/
 
 #footer
@@ -357,6 +454,7 @@
 .footer a:hover
 {
     color: lime;
+	text-decoration:none;
 }
 .footer h5
 {
