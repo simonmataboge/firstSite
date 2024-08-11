@@ -120,6 +120,7 @@
 
 .sidepanel a:hover {
   color: lime;
+	text-decoration:none;
 }
 
 .sidepanel .closebtn {
@@ -197,6 +198,7 @@
     font-weight:bolder; 
     color:black; font-size:70px; 
     margin-top:60px;
+	
     
 }
 #services
@@ -210,6 +212,7 @@
     font-family:Embassy BT;
     color: white;
     font-size: 60px;
+	
 }
 #services p
 {
@@ -252,12 +255,13 @@
     margin-left: 25px;
 	border: .2rem solid white;
 	border-radius: 200px;
-	border-left-color: dodgerblue;
+	border-left-color: goldenrod;
 	border-left-style: solid;
 	border-left-width: .5rem;
-		border-right-color: dodgerblue;
+		border-right-color: goldenrod;
 	border-right-style: solid;
 	border-right-width: .5rem;
+	box-shadow: 0 0 2rem white
 	
 }
 @media screen and (max-width:1000px ){
@@ -322,13 +326,13 @@
 	background: linear-gradient(to top right,cornflowerblue,black);
 	border-top-right-radius: 200px;
 	border-top-left-radius: 200px;
-	border-top-color: dodgerblue;
+	border-top-color: goldenrod;
 	border-top-style: solid;
 	border-top-width: .8rem;
-	border-bottom-color: dodgerblue;
+	border-bottom-color: goldenrod;
 	border-bottom-style: solid;
 	border-bottom-width: .4rem;
-	box-shadow: 0 0 1rem dodgerblue;
+	box-shadow: 0 0 1rem goldenrod;
 	margin-top: 20px;
 	margin-left: 10px;
 	
@@ -349,7 +353,7 @@
 }
 .box .fa:hover
 {
-    color: aqua;
+    color: lime;
 }
 h1
 {

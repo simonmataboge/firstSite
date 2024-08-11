@@ -120,6 +120,7 @@
 
 .sidepanel a:hover {
   color: lime;
+	text-decoration:none;
 }
 
 .sidepanel .closebtn {
@@ -300,7 +301,7 @@ padding-bottom:20px;
 }
 .box .fa
 {
-    color: black;
+    color: goldenrod;
     font-size: 20px;
 }
 /*-----about-------*/
@@ -439,6 +440,7 @@ padding-bottom:20px;
     padding: 10px;
     background: linear-gradient(to top right,cornflowerblue,black);
     color: white;
+	box-shadow: 0 0 2rem goldenrod;
 }
 @media screen and (max-width:1000px ){
 	.about-content-left{
@@ -490,12 +492,16 @@ padding-bottom:20px;
     font-size: 150px;
     border-radius: 100%;
     padding: 20px;
+	color: goldenrod;
+	text-shadow: 0 0 2rem goldenrod;
 }
 .about-icon-left .fa
 {
     font-size: 150px;
     border-radius: 100%;
     padding: 20px;
+	color: goldenrod;
+	text-shadow: 0 0 2rem goldenrod;
 }
 @media screen and (max-width:400px ){
 	about-content .fa{
